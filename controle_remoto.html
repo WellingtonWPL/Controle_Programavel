@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Controle Programável</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+        function saveData(){
+        	var channel= document.getElementById("ch").value;
+        	var timer = document.getElementById("appt").value;
+			alert($("input[name='choices']:checked").val()); 
+			alert(channel); 
+			alert(timer);
+			$("#formTv").submit();
+            location.href = '?pg='+ $("input[name='choices']:checked").val() +'&canal='+ channel +'&timer='+ timer;  
+		}
+    </script>
+</head> 
+<body>
+	<style type="text/css">
+		
+		label {
+	    display: block;
+	    font: 1rem 'Fira Sans', sans-serif;
+		}
+
+		input,
+		label {
+		    margin: .4rem 0;
+		}
+
+		.note {
+		    font-size: .8em;
+		}
+
+	</style>
+	<fieldset>
+		<legend><h2>Canais</h2></legend>
+		<form method="post" action="" id="formTv">
+			
+			<fieldset id="nome" style="width: 500px; margin-right: 50%; margin-left: 25%; margin-top: -30px;" method="post">
+				<legend><h3>Seu canal:</h3></legend>
+					<label for="appt">A TV estará ligada antes do evento?</label>
+					<tr id="escolha"> 
+	                    <td><input type="radio" name="choices" id="choice1" value="Sim" style="margin-left: 10px; margin-top: 10px;"> Sim</td>
+	                    <td><input type="radio" name="choices" id="choice2" value="Não" style="margin-left: 10px; "> Não</td>
+	                </tr>    					
+			</fieldset>
+			<br><br>
+		
+			<fieldset id="tvCh">
+				<tr>
+					<td>
+						<label for="ch">Escolha o número do seu canal:</label>
+						<input type="number" id="ch" name="ch"
+						       min="1" max="300" value="0" required>
+						<span class="note">Canal.</span>
+					</td>	
+				</tr>
+			</fieldset>
+		<br><br>
+		
+			<fieldset id="tempo">
+				<tr>
+					<td>
+						<label for="appt">Escolha o horário de seu programa:</label>
+						<input type="time" id="appt" name="appt">
+					</td>
+				</tr>
+			</fieldset>
+		
+	</fieldset>
+	<input type="button" id="save" onclick="saveData();" value="Save" />
+</body>
+</html>

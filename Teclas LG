@@ -1,0 +1,54 @@
+CONTROLES TV LG
+
+(Power)= 20DF10EF
+(tv)= 20DFF00F
+(caption)= 20DF9C63
+(config)= 20DFC23D
+(search)= 20DF1EE1
+(inputs list)= 20DFD02F
+(1)= 20DF8877
+(2)= 20DF48B7
+(3)= 20DFC837
+(4)= 20DF28D7
+(5)= 20DFA857
+(6)= 20DF6897
+(7)= 20DFE817
+(8)= 20DF18E7
+(9)= 20DF9867
+(list)= 20DF32CD
+(0)= 20DF08F7
+(q.view)= 20DF58A7
+(vol+)= 20DF40BF
+(vol-)= 20DFC03F
+(fav)= 20DF7887
+(info)= 20DF55AA
+(mute)= 20DF906F
+(ch+)= 20DF00FF
+(ch1)= 20DF807F
+(netflix)= 20DF6A95
+(home)= 20DF3EC1
+(amazon)= 20DF3AC5
+(guide)= 20DFD52A
+(cima)= 20DF02FD
+(live zoom)= 20DFF50A
+(esquerda)= 20DFE01F
+(ok)= 20DF22DD
+(direita)= 20DF609F
+(back)= 20DF14EB
+(baixo)= 20DF827D
+(exit)= 20DFDA25
+(bola)= 20DFDD22
+(rec)= 20DFBD42
+(stop)= 20DF8D72
+(rewind)= 2DFF10E
+(play)= 20DF0DF2
+(pause)= 20DF5DA2
+(advance)= 20DF18E
+(red)= 20DF4EB1
+(green)= 20DF8E71
+(yellow)= 20DFC639
+(blue)= 20DF8679
+
+
+
+
